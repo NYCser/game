@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/TextMesh Pro/Examples & Extras/Scenes/28 - HDRP Shader Example.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

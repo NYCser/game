@@ -1,0 +1,4 @@
+Ten game: Death Forest: Evidence Run
+The loai: 3D stealth / objective escape
+Phong cach do hoa: low-poly primitive, toi uu nhe
+Trang thai: project Unity scaffold co gameplay core bang code, de mo rong nhanh

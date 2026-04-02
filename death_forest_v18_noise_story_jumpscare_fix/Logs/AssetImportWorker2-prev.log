@@ -1,0 +1,291 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.0f1 (8cf496087c8f) revision 9237654'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ycao8" at "2026-04-02T06:08:01.564545Z"
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 16052 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-04-02T06:08:01Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/University/VR/final_project_VR/death_forest_v18_noise_story_jumpscare_fix
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+55731
+-licensingIpc
+LicenseClient-ycao8
+-force-d3d12
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/University/VR/final_project_VR/death_forest_v18_noise_story_jumpscare_fix
+D:/University/VR/final_project_VR/death_forest_v18_noise_story_jumpscare_fix
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [2172]  Target information:
+
+Player connection [2172]  * "[IP] 192.168.50.1 [Port] 0 [Flags] 2 [Guid] 1509620850 [EditorId] 1509620850 [Version] 1048832 [Id] WindowsEditor(7,CaoY) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [2172]  * "[IP] 192.168.80.1 [Port] 0 [Flags] 2 [Guid] 1509620850 [EditorId] 1509620850 [Version] 1048832 [Id] WindowsEditor(7,CaoY) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [2172]  * "[IP] 172.18.224.1 [Port] 0 [Flags] 2 [Guid] 1509620850 [EditorId] 1509620850 [Version] 1048832 [Id] WindowsEditor(7,CaoY) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [2172]  * "[IP] 192.168.1.169 [Port] 0 [Flags] 2 [Guid] 1509620850 [EditorId] 1509620850 [Version] 1048832 [Id] WindowsEditor(7,CaoY) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [2172] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [2172] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.4.0f1 (8cf496087c8f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/University/VR/final_project_VR/death_forest_v18_noise_story_jumpscare_fix/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        Intel(R) Iris(R) Xe Graphics (ID=0x46a6)
+    Vendor:          Intel
+    VRAM:            8026 MB
+    App VRAM Budget: 7368 MB
+    Driver:          32.0.101.5542
+    Unified Memory Architecture
+    Cache Coherent UMA
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003355 seconds.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-ycao8"
+[Licensing::IpcConnector] LicenseClient-ycao8 channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ycao8-6000.4.0" at "2026-04-02T06:08:04.4926329Z"
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.360 seconds
+Domain Reload Profiling: 2849ms
+	BeginReloadAssembly (424ms)
+	RebuildCommonClasses (120ms)
+	RebuildNativeTypeToScriptingClass (42ms)
+	initialDomainReloadingComplete (219ms)
+	LoadAllAssembliesAndSetupDomain (679ms)
+		LoadAssemblies (408ms)
+		AnalyzeDomain (646ms)
+			TypeCache.Refresh (642ms)
+				TypeCache.ScanAssembly (598ms)
+	FinalizeReload (1365ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (146ms)
+			BeforeProcessingInitializeOnLoad (290ms)
+			ProcessInitializeOnLoadAttributes (421ms)
+			ProcessInitializeOnLoadMethodAttributes (279ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              d1b767b7d6d5452ab4bb5b7f8e68b4e8
+  Correlation Id:          3402ce867cc8231f5ca6e3c07cbe3f6e
+  External correlation Id: 3509721265567883097
+  Machine Id:              3VAeN7e99mAB7T4f1SqqKu3lLn8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ycao8-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 2.24s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ycao8-6000.4.0-notifications" at "2026-04-02T06:08:06.7323506Z"
+[Licensing::Module] Licensing Background thread has ended after 5.17s
+[Licensing::Module] Licensing is initialized (took 0.61s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968397544137-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.459 seconds
+Domain Reload Profiling: 1452ms
+	BeginReloadAssembly (835ms)
+		DisableScriptedObjects (5ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (36ms)
+		LoadAssemblies (143ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (6ms)
+			BuildScriptInfoCaches (5ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (461ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (110ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 420 unused Assets / (60.6 KB). Loaded Objects now: 1037.
+Memory consumption went from 70.1 MB to 70.0 MB.
+Total: 4.775600 ms (FindLiveObjects: 0.088400 ms CreateObjectMapping: 0.026000 ms MarkObjects: 4.456200 ms  DeleteObjects: 0.202100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 6477.205770 seconds.
+  path: Assets/Realistic Tree/Source/Models/Spruce/Spruce_1.fbx
+  importAddress: Guid(90f3bcb560ecddd42b1dba6234db3ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic Tree/Source/Models/Spruce/Spruce_1.fbx using Guid(90f3bcb560ecddd42b1dba6234db3ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd0aceb7f6a102185783ca4abcaf840bf') in 0.5887482 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d086b488f7263634b47bbfa574da09f5 DependenciesID=cd7cb6ff6296685346b7132c51bd3094 StaticDependenciesID=2da0ba99d19b73114d605cadb71c6992 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Realistic Tree/Source/Models/Spruce/Spruce_Group_2.fbx
+  importAddress: Guid(d09ff55a7e074ce46912818a6561da61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic Tree/Source/Models/Spruce/Spruce_Group_2.fbx using Guid(d09ff55a7e074ce46912818a6561da61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '849f1c220483f53bed672f8928f2bf52') in 0.2722292 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=82bcefda1c07a44aadcdc44bca679af6 DependenciesID=1a8b41c01251b2a4e6a8c74b663a19df StaticDependenciesID=89b87aaccef8279ae2b9c8949ec12219 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.372961 seconds.
+  path: Assets/Realistic Tree/Source/Models/Chestnut/Chestnut_1.fbx
+  importAddress: Guid(7028a30082926d24f9168b77ffa645c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic Tree/Source/Models/Chestnut/Chestnut_1.fbx using Guid(7028a30082926d24f9168b77ffa645c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2df865ae0456d54f914fd4d7bc8efcbf') in 0.3104086 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=68d484a1f57c854be84367c79ef26a6c DependenciesID=eed6c3a1de970b44024c005544266494 StaticDependenciesID=3d05128da0a8124da5f0cdc16b8b4d9c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 85
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Realistic Tree/Source/Models/Chestnut/Chestnut_5.fbx
+  importAddress: Guid(1a59981b9b4445c469b74964f678852b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic Tree/Source/Models/Chestnut/Chestnut_5.fbx using Guid(1a59981b9b4445c469b74964f678852b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '03baca4f820cc4f7d72355fa2c72ce61') in 0.354935 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=22bfe26d79beaa9913b0409dd2956c48 DependenciesID=2cca24a867fde7da0e8c9ac02ea3b765 StaticDependenciesID=70c4f156465efa038809eab63bdcc8ba 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 105
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.564 seconds
+Domain Reload Profiling: 1046ms
+	BeginReloadAssembly (323ms)
+		DisableScriptedObjects (9ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (35ms)
+		LoadAssemblies (220ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (5ms)
+			BuildScriptInfoCaches (10ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (570ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (177ms)
+			ProcessInitializeOnLoadAttributes (124ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 418 unused Assets / (16.8 KB). Loaded Objects now: 1050.
+Memory consumption went from 71.8 MB to 71.8 MB.
+Total: 7.102800 ms (FindLiveObjects: 0.140500 ms CreateObjectMapping: 0.039300 ms MarkObjects: 6.774500 ms  DeleteObjects: 0.145600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

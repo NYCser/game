@@ -1,0 +1,1045 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.0f1 (8cf496087c8f) revision 9237654'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 16052 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ycao8" at "2026-04-02T06:37:51.7951248Z"
+System  architecture: x64
+Process architecture: x64
+Date: 2026-04-02T06:37:51Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/University/VR/final_project_VR/death_forest_v18_noise_story_jumpscare_fix
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+61367
+-licensingIpc
+LicenseClient-ycao8
+-force-d3d12
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/University/VR/final_project_VR/death_forest_v18_noise_story_jumpscare_fix
+D:/University/VR/final_project_VR/death_forest_v18_noise_story_jumpscare_fix
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [14416]  Target information:
+
+Player connection [14416]  * "[IP] 192.168.50.1 [Port] 0 [Flags] 2 [Guid] 3152930502 [EditorId] 3152930502 [Version] 1048832 [Id] WindowsEditor(7,CaoY) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [14416]  * "[IP] 192.168.80.1 [Port] 0 [Flags] 2 [Guid] 3152930502 [EditorId] 3152930502 [Version] 1048832 [Id] WindowsEditor(7,CaoY) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [14416]  * "[IP] 172.18.224.1 [Port] 0 [Flags] 2 [Guid] 3152930502 [EditorId] 3152930502 [Version] 1048832 [Id] WindowsEditor(7,CaoY) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [14416]  * "[IP] 192.168.1.169 [Port] 0 [Flags] 2 [Guid] 3152930502 [EditorId] 3152930502 [Version] 1048832 [Id] WindowsEditor(7,CaoY) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [14416] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14416] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.4.0f1 (8cf496087c8f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/University/VR/final_project_VR/death_forest_v18_noise_story_jumpscare_fix/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        Intel(R) Iris(R) Xe Graphics (ID=0x46a6)
+    Vendor:          Intel
+    VRAM:            8026 MB
+    App VRAM Budget: 7368 MB
+    Driver:          32.0.101.5542
+    Unified Memory Architecture
+    Cache Coherent UMA
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001975 seconds.
+Native extension for WindowsStandalone target not found
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-ycao8"
+[Licensing::IpcConnector] LicenseClient-ycao8 channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ycao8-6000.4.0" at "2026-04-02T06:37:53.4834532Z"
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.696 seconds
+Domain Reload Profiling: 1429ms
+	BeginReloadAssembly (201ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (101ms)
+	LoadAllAssembliesAndSetupDomain (346ms)
+		LoadAssemblies (194ms)
+		AnalyzeDomain (330ms)
+			TypeCache.Refresh (327ms)
+				TypeCache.ScanAssembly (305ms)
+	FinalizeReload (699ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (77ms)
+			BeforeProcessingInitializeOnLoad (150ms)
+			ProcessInitializeOnLoadAttributes (201ms)
+			ProcessInitializeOnLoadMethodAttributes (153ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              772bf84a106d44e28506d607ea17e71b
+  Correlation Id:          27e124a6241d7334cdfcbb1804b68d6b
+  External correlation Id: 6809721435872842468
+  Machine Id:              3VAeN7e99mAB7T4f1SqqKu3lLn8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ycao8-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 1.40s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ycao8-6000.4.0-notifications" at "2026-04-02T06:37:54.887086Z"
+[Licensing::Module] Licensing Background thread has ended after 3.09s
+[Licensing::Module] Licensing is initialized (took 0.76s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968397544137-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.480 seconds
+Domain Reload Profiling: 1621ms
+	BeginReloadAssembly (990ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (33ms)
+		LoadAssemblies (132ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (5ms)
+			BuildScriptInfoCaches (6ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (482ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (122ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 420 unused Assets / (44.8 KB). Loaded Objects now: 1037.
+Memory consumption went from 70.1 MB to 70.1 MB.
+Total: 4.559700 ms (FindLiveObjects: 0.123700 ms CreateObjectMapping: 0.030500 ms MarkObjects: 4.151900 ms  DeleteObjects: 0.242500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 8263.268670 seconds.
+  path: Assets/Realistic Tree/Source/Textures/Ash/Leaf_1.png
+  importAddress: Guid(2c669a96d7386844f88d765597c9a423) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Textures/Ash/Leaf_1.png using Guid(2c669a96d7386844f88d765597c9a423) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '382d1383e68e5f9849546891a5d47a6a') in 0.1978636 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=98cb89d0eaae85cd5ce33bc66b8f179b DependenciesID=5abb9649219c766db5e2e0893b500d58 StaticDependenciesID=442b6245e364227566c73de23594eade 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Weeping Willow
+  importAddress: Guid(ed90228c9f9b3c843998f99346171e22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/URP/Weeping Willow using Guid(ed90228c9f9b3c843998f99346171e22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '62e81ea33d761d30c3cffaf0f6fe5003') in 0.0039178 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=268b24999cf5c6564c368ddd0afecb4a DependenciesID=25d4a87c909a09703ee0d0f599eb0b2c StaticDependenciesID=59e0fa91db46eed2fe93cef0b960e20d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Realistic Tree/Source/Materials/URP/Falling Leaves/Chestnut_Single.png
+  importAddress: Guid(8148dca25a804e7469a2e1a1e71edf08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Materials/URP/Falling Leaves/Chestnut_Single.png using Guid(8148dca25a804e7469a2e1a1e71edf08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1dcbe31499796af5e7413f249ad782c6') in 0.020473 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ddf8e11d62b3b5b144208fd705615ede DependenciesID=c5dae1c3a5a04716594f7bbb6be3cc0e StaticDependenciesID=8a6184cb950b46c819dc0fb207889016 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Realistic Tree/Source/Materials/URP/Leaves
+  importAddress: Guid(592b18ddb7859964e8af48430c969639) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Materials/URP/Leaves using Guid(592b18ddb7859964e8af48430c969639) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ea5c995f4ec2db7b6e21e77a155d69a4') in 0.0029656 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d6497b8fc545096f9664aa32f4c6e657 DependenciesID=318f04147c45fc907d3ba812b7a8d0ea StaticDependenciesID=bb9cbafa9ce5200fd730c7462027d602 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Spruce/Spruce 9.prefab
+  importAddress: Guid(09d870b9c6c78ab42b89e0e94120bc08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/URP/Spruce/Spruce 9.prefab using Guid(09d870b9c6c78ab42b89e0e94120bc08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c4eec4deb248c1092c3bbe58ebf18cde') in 0.0269887 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=199aa2b639907cf9a334596a3efe2dde DependenciesID=fd846166a8f165efa7865d39eae76ea1 StaticDependenciesID=9ff6237efc829d98a832d5f07d27b218 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Realistic Tree/Source/Materials/HDRP/Falling Leaves/Ash_Single.mat
+  importAddress: Guid(4f2e54b7c4326924ab24f93c82988f90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Materials/HDRP/Falling Leaves/Ash_Single.mat using Guid(4f2e54b7c4326924ab24f93c82988f90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2d2b9845b4ceaf4a7cd04802fbad3bad') in 0.0165096 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ef16e998d9c899efec8ba56f07548643 DependenciesID=d65956cc176849ba443137336a740693 StaticDependenciesID=01509612b0cb1046d87367e479481bc8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Realistic Tree/Source/Models/Spruce/Spruce_1.fbx
+  importAddress: Guid(90f3bcb560ecddd42b1dba6234db3ad2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Models/Spruce/Spruce_1.fbx using Guid(90f3bcb560ecddd42b1dba6234db3ad2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4695b47e4956b739c673c27d0e2aed46') in 0.0422632 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8403e070fb30859f93178a07f8daa7aa DependenciesID=b5f3b8c6c528cb8af22279f75efda3f9 StaticDependenciesID=64336a50c204d7bcbd53afe6f61db04d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Realistic Tree/Source/Models/Spruce/Spruce_4.fbx
+  importAddress: Guid(177a3098ff78f284aabfd5138145629b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Models/Spruce/Spruce_4.fbx using Guid(177a3098ff78f284aabfd5138145629b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '999e3d4fdf5e1df17a4f9f4b6ef0bc75') in 0.0268687 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1e5759470647bd9720828a46ffe0bb79 DependenciesID=b826864d1014c19a1503cc5930386d83 StaticDependenciesID=e50019b5c2e38d58b4031cd3ac1590b3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Ash/Ash 7.prefab
+  importAddress: Guid(9e065bacc309f8a4c877f23b4b5eebf8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/URP/Ash/Ash 7.prefab using Guid(9e065bacc309f8a4c877f23b4b5eebf8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '343d98a7857541c346558ed432295a04') in 0.1020873 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=433e6abcbf3a9dbef0e98cb21a3b80f3 DependenciesID=1f9bc6f228669c6b7763e5dfde5f21ee StaticDependenciesID=16a6359c64ae403a57f79f189500f35a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 69
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Realistic Tree/Source/Materials/HDRP/Leaves/Ash
+  importAddress: Guid(fdeebafd17515b94d90f00876d837e09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Materials/HDRP/Leaves/Ash using Guid(fdeebafd17515b94d90f00876d837e09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd75d2e19fff8112ff72d0cfb2ed683dd') in 0.0035468 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0361da1fdfb83725103b1d999c1b37fa DependenciesID=8f598f3a3331a351dd64c7bbdb3d6684 StaticDependenciesID=2705faa0376023662234fb2ce7548082 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Spruce/Spruce 3.prefab
+  importAddress: Guid(f3eefa452c5e31a4982e3e0d71adcaec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/URP/Spruce/Spruce 3.prefab using Guid(f3eefa452c5e31a4982e3e0d71adcaec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dde24b3571846ccff558adc1b5fd8c3a') in 0.0201283 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=59024df70f2bd2aa5094b3a6d8690823 DependenciesID=5574d588c5b8653e0fc203a9c1c53089 StaticDependenciesID=922b2b065b0b6494d7cf8ff64ffb65d5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Realistic Tree/Prefabs/Standard/Chestnut/Chestnut 2.prefab
+  importAddress: Guid(56115f1cafeb24f44921ff210db74d4f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/Standard/Chestnut/Chestnut 2.prefab using Guid(56115f1cafeb24f44921ff210db74d4f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '534dcfd50383f75317275ede0e97c75f') in 0.0437046 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c60cab7f2245b0c4600f5808a0a48e3c DependenciesID=75a1c9932769d2aacca74aac2aada137 StaticDependenciesID=856d3d8a54f4bfb7716f6e1bc05d6003 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 89
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Realistic Tree/Source/Materials/Standard/Leaves/Weeping Willow/Weeping_Willow.mat
+  importAddress: Guid(e18eff11a301f9d44aa4ee329d2836fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Materials/Standard/Leaves/Weeping Willow/Weeping_Willow.mat using Guid(e18eff11a301f9d44aa4ee329d2836fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ec84f6a421fa1ad0a68d9a9238b5502a') in 0.072835 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f7f203f7d92c069e84001944e5815c30 DependenciesID=9837079ca9a141145e160994983be409 StaticDependenciesID=3a6cd82a56d57d3fb076048ff34c2acb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Realistic Tree/Source/Materials/Standard/Leaves/Weeping Willow/Weeping_Willow_Small.mat
+  importAddress: Guid(59e6ef35c3130a24c91ac0eb5059a03b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Materials/Standard/Leaves/Weeping Willow/Weeping_Willow_Small.mat using Guid(59e6ef35c3130a24c91ac0eb5059a03b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2fb3ea9d01de14e0c12239fdbaf50349') in 0.0162427 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9a865beb60fbc4f53cc70d5988f5f56f DependenciesID=93f3eaebe2fc9c72fb05b52ae6c14904 StaticDependenciesID=d428387ca4a446f1485d14c8074727e3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Realistic Tree/Source/Materials/Standard/Bark
+  importAddress: Guid(170cf8ad17161c84383ed96dce65d963) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Materials/Standard/Bark using Guid(170cf8ad17161c84383ed96dce65d963) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7c3dcdfc40340e4dd73e476ade33cf37') in 0.0046595 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a35586b4950c70be6b6b1fb273a80066 DependenciesID=b10524cf556a594f1219067687551345 StaticDependenciesID=4581b7b73493540912971364cadb9e62 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 8.prefab
+  importAddress: Guid(27a0eee291be7a6428f36c5bcbd6c4f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 8.prefab using Guid(27a0eee291be7a6428f36c5bcbd6c4f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '01c68a6267ba5cb111ee22df859bbd64') in 0.0332931 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1328fa25b533e1342332dd7c6cc106cc DependenciesID=4c7d8091485ed648341d607d9b9b946a StaticDependenciesID=b656ae6272436740eb7887c34961f299 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Ash/Ash 2.prefab
+  importAddress: Guid(632cb5ba8e6554c4d895ced6ffb22702) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/URP/Ash/Ash 2.prefab using Guid(632cb5ba8e6554c4d895ced6ffb22702) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5957c799bd7668b36e41fff9751d430c') in 0.0291284 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=73fb9db70027c78e3e7ee89f78f32a45 DependenciesID=ad62422ca3eb42bc909df3e35971c0bc StaticDependenciesID=2ad4e9d166c28e8d22e3979dd00a9d27 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 69
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Birch/Birch 8.prefab
+  importAddress: Guid(b4b2a6f205b7d064f87f3566a03e10a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/URP/Birch/Birch 8.prefab using Guid(b4b2a6f205b7d064f87f3566a03e10a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7d17a256845438253313d07e8a28da8d') in 0.0435858 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=910b7a51b016a540c55347ac5adbfa44 DependenciesID=5298bcec10aa6e44401901323adadbbd StaticDependenciesID=f7a534f974d131987f20c18cf1e13382 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 69
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Realistic Tree/Source/Textures/Spruce/Leaf_1.png
+  importAddress: Guid(fc6b841bb3988304486c6cb980068dd2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Textures/Spruce/Leaf_1.png using Guid(fc6b841bb3988304486c6cb980068dd2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '72c85b04790a9d5ed9f82706b7b7172d') in 0.0153192 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2a5cb9aef01c0ade1806be0e18702a43 DependenciesID=a94fdbe21460f6e8a3b74c9e39ef000f StaticDependenciesID=6194d2f71c7efe9be01340e493eecdf2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Realistic Tree/Prefabs/Standard/Spruce/Spruce 6.prefab
+  importAddress: Guid(638c1b44ce6868d48bd2a8306f5bb3f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/Standard/Spruce/Spruce 6.prefab using Guid(638c1b44ce6868d48bd2a8306f5bb3f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c5177612e76dd27baa888be477990367') in 0.0067495 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bb89dea023b68c55cc10ec2bbaff4975 DependenciesID=b7c2f0ce2f0393cbcd3a3c57a299d86d StaticDependenciesID=d3ad9ff341445266cdd4ce86508f0ea3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Realistic Tree/Source/Textures/Weeping Willow
+  importAddress: Guid(adc0248ae1bde0a44bcda1e0f0348fdd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Textures/Weeping Willow using Guid(adc0248ae1bde0a44bcda1e0f0348fdd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b8af377ed4e5dd230a072c7d572bf549') in 0.0025767 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7ee48247a221a24a8955cfc12dace3a6 DependenciesID=2803f570953e64728073a024acd4c3cc StaticDependenciesID=799cb93ef04029e27a3c041bcba37d23 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Realistic Tree/Source/Materials/Standard/Falling Leaves/URP/Chestnut_Single.mat
+  importAddress: Guid(fedb23d41c9426e4d96cefb0af55ef0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Materials/Standard/Falling Leaves/URP/Chestnut_Single.mat using Guid(fedb23d41c9426e4d96cefb0af55ef0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b3f1d47ea6422d220cc33dd8ebb169c4') in 0.0046619 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8516e5dd7dbd2a9054e001769fbc0c18 DependenciesID=d2fa8011bc24c9a22f3032b85fd0c339 StaticDependenciesID=efdfd064a56e992fa10c02ad2fc9d94a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Realistic Tree/Prefabs/Standard/Birch/Birch 1.prefab
+  importAddress: Guid(617dd519e2d012a4e92fdf45b5b1f888) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/Standard/Birch/Birch 1.prefab using Guid(617dd519e2d012a4e92fdf45b5b1f888) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '09d19109d59e98ba22fd49b260d49270') in 0.0268334 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9c4552700329afdf22d6779f93c1d1ce DependenciesID=b5fd731c9905300bf06a3dcf72763609 StaticDependenciesID=5428fa4df2f8c22af517c346ec70a3ff 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 69
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Realistic Tree/Prefabs/Standard/Birch/Birch 6.prefab
+  importAddress: Guid(1f14f87b5b2ebb44ab13d657de58abbb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/Standard/Birch/Birch 6.prefab using Guid(1f14f87b5b2ebb44ab13d657de58abbb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ef9b88bc57022b291d3bc4cc692e8d97') in 0.0335529 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a63d79c6833f4c5cc82a51f544516a2d DependenciesID=8c871371718ce0b7960f80a796918567 StaticDependenciesID=ecbd9e89530bfbc0f27aff3015c075c0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 69
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Realistic Tree/Shader/HDRP/Bark_HDRP.shadergraph
+  importAddress: Guid(8893d56df203f4b4bbb8d496fb894846) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Shader/HDRP/Bark_HDRP.shadergraph using Guid(8893d56df203f4b4bbb8d496fb894846) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e646d7914809190ce6f660e1571b0809') in 0.0033054 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d3182e76d4e59b6ce802c805ec6bcd8d DependenciesID=2b5224a4593a4106f96223a7a999422f StaticDependenciesID=a8f7a1df621937aefc53cfd57f70ccc5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Realistic Tree/Source/Models/Chestnut/Chestnut_3.fbx
+  importAddress: Guid(6781b8a2fc465f340a39782aed855089) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Models/Chestnut/Chestnut_3.fbx using Guid(6781b8a2fc465f340a39782aed855089) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5beaddf5af213809bca7d4e10ca1a29c') in 0.0393291 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5b25145ddb845a0878f48a170ba3aa72 DependenciesID=3b3584bb0757ec1c3d8bd0a01cdf1830 StaticDependenciesID=82c14e7b5794a6ee985272a43b95b976 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 85
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Realistic Tree/Source/Materials/HDRP/Leaves/Spruce/Spruce_1.mat
+  importAddress: Guid(f95156f974481524282344941fddaa96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Materials/HDRP/Leaves/Spruce/Spruce_1.mat using Guid(f95156f974481524282344941fddaa96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ecdb57f851f1cdd08a312b764869a39a') in 0.0047528 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8208b941f073012af3c8a9520116608f DependenciesID=0a9eaec94bcfc7707b0abd0a0601f8f7 StaticDependenciesID=1b5564c56a0ea497d01a8aaa3f027cb0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Realistic Tree/Source/Materials/URP/Falling Leaves/Weeping_Single.mat
+  importAddress: Guid(71a973528b23d934ea7bee28cfe50e1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Materials/URP/Falling Leaves/Weeping_Single.mat using Guid(71a973528b23d934ea7bee28cfe50e1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '486c572499ee046f4404f1f1bfc6f52f') in 0.0054899 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a4f63e880c8519ba53c6b09cd17dc367 DependenciesID=66cb2b466139a181e4b11cda655b7348 StaticDependenciesID=a6c3bbf21924035aad31088d832e068b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Realistic Tree/Prefabs/Standard/Chestnut/Chestnut 6.prefab
+  importAddress: Guid(4a9c3a2cadac6294d83a9cc770865028) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/Standard/Chestnut/Chestnut 6.prefab using Guid(4a9c3a2cadac6294d83a9cc770865028) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0de64334f06b16e2e1a2723f23a1db41') in 0.0322801 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=631c2b3632ab6e487d044b6a0c2753a6 DependenciesID=07f7f7a6b2c1c53aa251f93fe4636054 StaticDependenciesID=454c8b0aef8233cd818cfca7fd5d3980 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 109
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Realistic Tree/Prefabs/Standard/Birch
+  importAddress: Guid(c928d9e16b7171a43a902e5613994e48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/Standard/Birch using Guid(c928d9e16b7171a43a902e5613994e48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2b07d5c28a1c259a6c738c00a866eca2') in 0.0041349 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=13fd4a4e5ce69b25b8d4b20decd7e7f2 DependenciesID=8a7a74c011f8764a488be8f3c8a22141 StaticDependenciesID=4dec7a44a18871af826b43e9a6b56264 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Realistic Tree/Prefabs/HDRP/Spruce/Spruce Group 1.prefab
+  importAddress: Guid(f8e589e5b98c2644dad13cedd571de2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/HDRP/Spruce/Spruce Group 1.prefab using Guid(f8e589e5b98c2644dad13cedd571de2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '382047452780721fda21d1350f289055') in 0.0091243 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=85f009b45a67ab3dfc7f810e5227bb59 DependenciesID=77dcfcd13b3bf4f14d12dd23763793da StaticDependenciesID=d228b0111a347a90a2ab5421c83b0b08 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Realistic Tree/Prefabs/Standard/Birch/Birch 3.prefab
+  importAddress: Guid(ffa44ddf50d9ae343bcf69db4abdc01f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/Standard/Birch/Birch 3.prefab using Guid(ffa44ddf50d9ae343bcf69db4abdc01f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7d7e6e32bce5c2d1140bd9622f8feda6') in 0.0262881 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f604d250d6f8a6acbe3355d4f5fd693c DependenciesID=343760772bbeb605983375a7c291aa20 StaticDependenciesID=78f705c4ceedeca5044df7fbe0fb2e49 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 69
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Realistic Tree/Source/Materials/URP/Leaves/Spruce
+  importAddress: Guid(a2851384e17e8fc44bbfebfd2e8253dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Materials/URP/Leaves/Spruce using Guid(a2851384e17e8fc44bbfebfd2e8253dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3bc3a65711a5172416b0a16d827e9684') in 0.0028582 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=74d109c70df4464052d2d51deaee2f91 DependenciesID=74fa29a9ce058f0d7de4466ceadc9ef7 StaticDependenciesID=f7d2a1ad82b5f24e617d6bc9c14687d6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Realistic Tree/Source/Materials/URP/Falling Leaves/Birch_Single.png
+  importAddress: Guid(472bf9d083be9a44c9de0f8fe74b32b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Materials/URP/Falling Leaves/Birch_Single.png using Guid(472bf9d083be9a44c9de0f8fe74b32b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1fe894f0fa058a1e0773eda310c7db4d') in 0.0108664 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9343601d616f01b3e03c15aac34f033c DependenciesID=f55960137bdd69a6d7ed6e788050ae1c StaticDependenciesID=82274ca712baa596dcb3c2d4df95949d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Realistic Tree/Prefabs/Standard/Spruce/Spruce Group 3.prefab
+  importAddress: Guid(110b3a1a445e11d4d80678c2a05fef11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/Standard/Spruce/Spruce Group 3.prefab using Guid(110b3a1a445e11d4d80678c2a05fef11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c2623532fd63ac2866ea46617de5a62c') in 0.0108607 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d0103e608605dc955c08d7885ac2fc69 DependenciesID=ddf34b048eefb73f034ab475063443a7 StaticDependenciesID=92be3a801b4c1245ee2cb12cafa363f4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Realistic Tree/Source/Models/Birch/Birch_2.fbx
+  importAddress: Guid(6da9fd099a5f0f744917f484a65d82e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Models/Birch/Birch_2.fbx using Guid(6da9fd099a5f0f744917f484a65d82e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2d7e7d1102f8d4d050573b603f2b5c3c') in 0.0218445 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=36479e0a8a940f6a574e11d8efd7b437 DependenciesID=9e67b70063c451b74da7e7565a63d313 StaticDependenciesID=b888f09ab7825eaf6f338ead2e84db44 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 4.prefab
+  importAddress: Guid(b7188c4920b915d41a1c3a5cdf968f12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 4.prefab using Guid(b7188c4920b915d41a1c3a5cdf968f12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8cf73edeb51c8a8bf75399901d2e40a1') in 0.0277362 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fab8ce349e4100f2c41dc8e94b244e87 DependenciesID=1c1b353ee927e8a84914f52365f7699a StaticDependenciesID=c8501cb06b246fe826de1c3f4eeef7f0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Realistic Tree/Source/Textures/Weeping Willow/Willow_Bark.png
+  importAddress: Guid(3a06cad5fbf54064b831133531eb46f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Textures/Weeping Willow/Willow_Bark.png using Guid(3a06cad5fbf54064b831133531eb46f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0ac854ead76b0ac637a9b40a94bcb698') in 0.0151966 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bbb9922f093f41501e1bc6c4f64ff504 DependenciesID=843e2b920f9bf709e327e9e90ca63463 StaticDependenciesID=274a069b3f1b53a387f7336ddf1871af 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Realistic Tree/Prefabs/Standard/Spruce/Spruce 9.prefab
+  importAddress: Guid(c32fc2f591b15d946bf93891c0915c4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/Standard/Spruce/Spruce 9.prefab using Guid(c32fc2f591b15d946bf93891c0915c4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6cbda10bcb7e99cdd7fc5d4971f371d3') in 0.0081449 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=56fda0c4d90ed5183ca37ef7410f8e1e DependenciesID=81868fd295ea16edc3bcb2f58e095b95 StaticDependenciesID=9ac1662e1acb75055c0b6d1d42ceb25a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Realistic Tree/Source/Models/Ash/Ash_4.fbx
+  importAddress: Guid(0c659ee1da62aec498924a350ab501f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Models/Ash/Ash_4.fbx using Guid(0c659ee1da62aec498924a350ab501f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4e470d916c0553c9d0c8726af76cd644') in 0.0199957 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6a18220567d483b64896ebe7d8e6e111 DependenciesID=c6a3f80f761ac6541c3966788012035d StaticDependenciesID=5f03e4aa7886911d57c6d9d7253ef88b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Realistic Tree/Source/Materials/Standard/Leaves
+  importAddress: Guid(213aefb1b3548fb49938479df5e8e543) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Materials/Standard/Leaves using Guid(213aefb1b3548fb49938479df5e8e543) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e4a7112596162bf8367ea458f9713450') in 0.0031887 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3523923d02f4310dcb9101ca1551fcdf DependenciesID=1cf318bf0be1fafd3c2101b521f3be24 StaticDependenciesID=7e3d777cf1e5b2de577eacbc52569202 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Realistic Tree/Source/Materials/Standard/Bark/Bark_Willow.mat
+  importAddress: Guid(2e0268000557ddd4ca699b650c82603a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Materials/Standard/Bark/Bark_Willow.mat using Guid(2e0268000557ddd4ca699b650c82603a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b322cd3442d42d2602e31a0cef45a8f3') in 0.0119793 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0242ae1d2f4a132fb3b1a8b82dc3a95f DependenciesID=ade4a1f965f251c0770a688121ab9d0c StaticDependenciesID=5a8016df7a45020b3346ff98ea171e24 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Realistic Tree/Source/Models/Birch/Birch_Group_2.fbx
+  importAddress: Guid(70002cc14af499342bb12a7dde74bf83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Models/Birch/Birch_Group_2.fbx using Guid(70002cc14af499342bb12a7dde74bf83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '68a43a05a02960a5297370e04b8addf8') in 0.0278872 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ec227b0cfee80ddc6ac626b4c2b8bea5 DependenciesID=f6e0dd4f5a12e4817dce9d1d67d8033b StaticDependenciesID=9fe19b8dbf140b3df68f5e82e4b3fc33 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Realistic Tree/Prefabs/HDRP/Chestnut/Chestnut 4.prefab
+  importAddress: Guid(c75aa25e9923fdd4daf671de36e0a36f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/HDRP/Chestnut/Chestnut 4.prefab using Guid(c75aa25e9923fdd4daf671de36e0a36f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '72c33559b19870d907c03b117323ed06') in 0.0298044 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bfa31858c74cecdc5a5c0b524f2c0ab1 DependenciesID=0dd363c53b3923b10c81967047a884a0 StaticDependenciesID=e329e3042a89ec6174d2a4631973b454 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 89
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.095668 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Chestnut/Chestnut 7.prefab
+  importAddress: Guid(62877a2894356f7408f0565824d414c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/URP/Chestnut/Chestnut 7.prefab using Guid(62877a2894356f7408f0565824d414c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'eb431e4a92ecdbddd41cc52b55655bc0') in 0.0327746 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=34f8993694a468da396ac56bd7bf2af8 DependenciesID=8ffbe00b404132608b32a85d328e61ec StaticDependenciesID=db7ae2e5dcfc2c070de9e9cad316817d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 109
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Realistic Tree/Source/Materials/Standard
+  importAddress: Guid(39c5a583b08d7fe468fea51e1b386ea2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Materials/Standard using Guid(39c5a583b08d7fe468fea51e1b386ea2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '562ee9c51e644683f16c47633805aaad') in 0.0029786 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6b8d15e182c253ea30b2108a014a8f42 DependenciesID=f6c601f370b43c05783f52e61014a12a StaticDependenciesID=bfc141a45442a0e45b2bf775e8dfebfd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Realistic Tree/Prefabs/Standard/Spruce/Spruce 5.prefab
+  importAddress: Guid(bfb99cffc6cdd7649a853469e30f5610) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/Standard/Spruce/Spruce 5.prefab using Guid(bfb99cffc6cdd7649a853469e30f5610) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '72e2df052c50bafb332661527eed248f') in 0.0065222 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5dc7284a364125ba4a31495242ffc0ed DependenciesID=d50ff493c67afede1026421ef40d8f77 StaticDependenciesID=d30088b9c811e919be9015452a86bc71 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Realistic Tree/Prefabs/HDRP/Weeping Willow/Weeping_Willow 6.prefab
+  importAddress: Guid(f9052794f974d9d4b92e68092ab92529) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/HDRP/Weeping Willow/Weeping_Willow 6.prefab using Guid(f9052794f974d9d4b92e68092ab92529) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f70c09b975513211a1e0a039f8621558') in 0.0219904 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8a802cfb9fee368c7bb5b0c57c769be2 DependenciesID=9d623a6c4d71222c409c81b636e11dd6 StaticDependenciesID=0314a752ba3376e30b541d542b703953 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Realistic Tree/Prefabs/Standard/Ash/Ash 1.prefab
+  importAddress: Guid(b705299bf721f4a4083e5c4f318c85f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/Standard/Ash/Ash 1.prefab using Guid(b705299bf721f4a4083e5c4f318c85f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7560eae139597ebd5ea709964b267c76') in 0.0261085 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5328f22a144ce323bbd730eadb2897f4 DependenciesID=f3272a59e96fe8b293207de23e84ad37 StaticDependenciesID=579b3583bce008d7477eb84e395af497 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 69
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 1.prefab
+  importAddress: Guid(00504f464b42d1d45a2dc24ba9eade1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 1.prefab using Guid(00504f464b42d1d45a2dc24ba9eade1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '18a60cc3db810a261effda1fe9645b33') in 0.023827 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8b69118865e8f4b2082561ab12f1366a DependenciesID=35c897c63be83697817dd0f92e240556 StaticDependenciesID=be66b005d93fcd22d15be8f3e0dd27f1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Realistic Tree/Source/Materials/URP/Leaves/Spruce/Spruce_1.mat
+  importAddress: Guid(bc4924934355f504cb3552ca20bf84af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Materials/URP/Leaves/Spruce/Spruce_1.mat using Guid(bc4924934355f504cb3552ca20bf84af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7fe68d1f49afd1c8d16b75d2fb7997b4') in 0.0049854 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eae108f34a109840bc147588df855207 DependenciesID=e629036905c955338214571da764e0c0 StaticDependenciesID=77f2297933f6c7ce4e9962acf5670f51 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Realistic Tree/Source/Textures/Chestnut/Chestnut_Normal.png
+  importAddress: Guid(3a25842b279d606418b7b55ca974fc1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Textures/Chestnut/Chestnut_Normal.png using Guid(3a25842b279d606418b7b55ca974fc1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c50a343ec1851dd201adde862a0e3094') in 0.008888 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7f3aa6c89bb27e3d1852e2492077988e DependenciesID=30e74c3161a5e142f5444b3f697455f9 StaticDependenciesID=0e8d4e547077337666d3ea9734fb8648 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Realistic Tree/Source/Models/Birch/Birch_6.fbx
+  importAddress: Guid(ad4c65bb746c39544a78e013f99b3bc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Models/Birch/Birch_6.fbx using Guid(ad4c65bb746c39544a78e013f99b3bc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '16cf9967124eb403b4f69adc6d0aa7d8') in 0.0212569 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d8a0567fc1bc9587f7f273eacc0f7d2c DependenciesID=b8f884acb013e92dece45c55f957cb25 StaticDependenciesID=0f74085b21cc20e5d4831e0ecd549173 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Realistic Tree/Source/Materials/Standard/Falling Leaves/URP/Birch_Single.mat
+  importAddress: Guid(041731c5b72e2f34d938d7af6b2eec09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Materials/Standard/Falling Leaves/URP/Birch_Single.mat using Guid(041731c5b72e2f34d938d7af6b2eec09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3422d9f93f28462b88f9fb1a8f463985') in 0.0049949 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f356b3cf60df51b87f8a76222224060b DependenciesID=a67c5e21b1de0b803ec1526df3838015 StaticDependenciesID=4daedf7e71c7a8bf1fd140c2d9e0006e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Realistic Tree/Source/Materials/Standard/Falling Leaves/URP
+  importAddress: Guid(f696e94ffd5463d45b27f31292cc60d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Materials/Standard/Falling Leaves/URP using Guid(f696e94ffd5463d45b27f31292cc60d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f0d563a103a77a280dbbc2fb1c8c36ba') in 0.0019778 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=01fcce458dcaf974dd209a630683c9a4 DependenciesID=af31c154739b7e318fd49c352a1db0a8 StaticDependenciesID=2fce15ebcadf80cba1dabdee390f36a8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Realistic Tree/Prefabs/HDRP/Birch
+  importAddress: Guid(85c2d9d7f72ce0d41866b710b0d55afc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/HDRP/Birch using Guid(85c2d9d7f72ce0d41866b710b0d55afc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a5a1de17714662abbcf0a75d42697ce0') in 0.0028381 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=20a4f0acf06dda4d9a60f1eef9cd5da1 DependenciesID=0f14f6aa752ff8cf5bc2b917f75fb137 StaticDependenciesID=6a8e215d8c70931e89744c5c95389d70 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Realistic Tree/Source/Materials/URP/Falling Leaves/Birch1_Single.png
+  importAddress: Guid(d5893296012aee242a660b8f1ded93fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Materials/URP/Falling Leaves/Birch1_Single.png using Guid(d5893296012aee242a660b8f1ded93fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '58e12a9426ba3734163cb19c51fdaa30') in 0.0116638 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=67cb7dc7f9f1d4501072a8b6f1027a68 DependenciesID=0e1fdae6dc0fd23389f24ee3723d650c StaticDependenciesID=7ce22836db2c1f765ae5f4a9f40e848a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Realistic Tree/Prefabs/HDRP/Birch/Birch 5.prefab
+  importAddress: Guid(e9c1cbb9bd37c5243be27654163ec2b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/HDRP/Birch/Birch 5.prefab using Guid(e9c1cbb9bd37c5243be27654163ec2b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'da7f2f0c8bd488c00c93e2838892fec3') in 0.0209384 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1ceb7fb057283e7f5d4edb4380469c1e DependenciesID=a1b2325721c62cd9b20b2e36e95fadee StaticDependenciesID=f6ae3af3ddd04835772d4bcd093739e9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 69
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Realistic Tree/Prefabs/Standard/Ash/Ash 8.prefab
+  importAddress: Guid(886e7c2dac95cff449facd13d0775147) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/Standard/Ash/Ash 8.prefab using Guid(886e7c2dac95cff449facd13d0775147) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b2b34e4356b6f0f3a72833ab29afcc28') in 0.0322341 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=799587dfc2d8f1be5eac61cdc4365863 DependenciesID=5c9964f7228f51e070b54203fcb5da8c StaticDependenciesID=15f293cb9f05edeaee22b693adfe7512 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 69
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Realistic Tree/Prefabs/HDRP/Spruce/Spruce 5.prefab
+  importAddress: Guid(69e86fcf90191a64baa6cee9e3ee003c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/HDRP/Spruce/Spruce 5.prefab using Guid(69e86fcf90191a64baa6cee9e3ee003c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8937a9363687de71aa87a7248254409c') in 0.0065617 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=26eccc07353485aade02820a58217800 DependenciesID=c0674492419f89a10af774255a2a60a9 StaticDependenciesID=dd9ab4eb534ab3675b530e2f62d63f0f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Realistic Tree/Source/Materials/HDRP/Falling Leaves/Chestnut_Single.png
+  importAddress: Guid(ce42dbc08c3689145a14da196e3e9ddb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Materials/HDRP/Falling Leaves/Chestnut_Single.png using Guid(ce42dbc08c3689145a14da196e3e9ddb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e99bfcfd59b0c14f7e2e613332fcbd13') in 0.0096547 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=43b2676a2774459795efd2687535e77a DependenciesID=1bdac6f16b5a586c3a9607532e95d4e0 StaticDependenciesID=85d263ad5617cd6a5946598e41acb746 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Realistic Tree/Source/Materials/HDRP/Bark
+  importAddress: Guid(d76f18eb5d7083746a01dffa6acd4240) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Materials/HDRP/Bark using Guid(d76f18eb5d7083746a01dffa6acd4240) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a9d14a53326e0131d90d732caab322cf') in 0.0033521 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=70f24de87feddbdca08fdde03fa4bd62 DependenciesID=2384b1ff405ed80de7a0dcd4cbf276da StaticDependenciesID=ac15d82d178fc6e8ba4d5197dfa1fcbb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Realistic Tree/Source/Materials/HDRP/Leaves/Spruce/Spruce_2.mat
+  importAddress: Guid(a68cbf7ca2afb494f938f9fc150deb0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Materials/HDRP/Leaves/Spruce/Spruce_2.mat using Guid(a68cbf7ca2afb494f938f9fc150deb0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1f3fede15840f0e2ec0bb7cc541b29dd') in 0.0039363 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ddb42ffb22452bf07e621e76fd3a6da8 DependenciesID=78f6b02d77a4ea2454c3bb4dc0c1cd7a StaticDependenciesID=b4797671267b60c942e55bc9f79c9a43 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Birch/Birch 7.prefab
+  importAddress: Guid(a6b5ce7010c086147a5219bec6747282) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/URP/Birch/Birch 7.prefab using Guid(a6b5ce7010c086147a5219bec6747282) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f21927772f4cb40d6ecaa9f963813620') in 0.0234427 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=715e6ccd8ecd03a3fdbfa763f787a721 DependenciesID=38dae0095a9d8718aae8da0b32cecb32 StaticDependenciesID=0e9623fa0ce79244050990d04e9270ca 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Realistic Tree/Source/Models/Ash/Ash_7.fbx
+  importAddress: Guid(5c27358fbf70b91439f3ea582c3f1169) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Models/Ash/Ash_7.fbx using Guid(5c27358fbf70b91439f3ea582c3f1169) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '13d4b17d074d3b1293326aa5591419ec') in 0.0167458 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9f8da2f68f0bad0560eb461563011839 DependenciesID=2dd9c78f4c47d9ffa2be2415c14ed44c StaticDependenciesID=5cdafcae6fa15ccc84874d090c5fb667 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Realistic Tree/Prefabs/HDRP/Spruce/Spruce 4.prefab
+  importAddress: Guid(abece37e2eb9dc64ba9acc8d12335c6c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/HDRP/Spruce/Spruce 4.prefab using Guid(abece37e2eb9dc64ba9acc8d12335c6c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ffd86a9275f1eac38106985dda609101') in 0.0076249 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7caf78199d819fed37d9a3cc18a6de54 DependenciesID=9a3782b2c5cc7f1a5d4a38ce92464618 StaticDependenciesID=9e8f8d8e4247cba39d50bbf9bcafa2e9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Realistic Tree/Source/Models/Chestnut/Chestnut_4.fbx
+  importAddress: Guid(637bdfdbaafd96d4197b55820446846f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Models/Chestnut/Chestnut_4.fbx using Guid(637bdfdbaafd96d4197b55820446846f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '62b05578d5a5c95e468fb66866c9eb22') in 0.01717 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dc0f605bacc8fd1895f47343f5604a5b DependenciesID=4fe7652f27b3ba5eaaa8b37f4dd9a6f4 StaticDependenciesID=4cb50a6be948f73e471f8feb0f6b0e1d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 85
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Realistic Tree/Prefabs/HDRP/Chestnut/Chestnut 3.prefab
+  importAddress: Guid(b423a64eb27d13b4980a849f3cbfabd4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/HDRP/Chestnut/Chestnut 3.prefab using Guid(b423a64eb27d13b4980a849f3cbfabd4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7856a53badfdf2d18493047029ba08ac') in 0.0212787 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c617f563cca42f841eca4263dac6bcfd DependenciesID=40facfe1db3defd5f6b0485521c23c94 StaticDependenciesID=1f7222dcc8c02ef943c69ba895e30b1f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 89
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.148902 seconds.
+  path: Assets/Realistic Tree/Prefabs/HDRP/Spruce/Spruce 10.prefab
+  importAddress: Guid(19f2ea08d89c7954699355e926a96439) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/HDRP/Spruce/Spruce 10.prefab using Guid(19f2ea08d89c7954699355e926a96439) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '53a0e143792cdaeba1daf7ea8d107782') in 0.0072928 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cafce4cc76589359a0765b3b4e010ea0 DependenciesID=2466279f3186f9e8fec3ad889ec8675b StaticDependenciesID=e3ad1874afc185cad50538f8b71ab3d4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Realistic Tree/Prefabs/Standard/Birch/Birch Group 2.prefab
+  importAddress: Guid(80118ff03f387324fa3e2a2e2e5b0006) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/Standard/Birch/Birch Group 2.prefab using Guid(80118ff03f387324fa3e2a2e2e5b0006) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2cc221550f461e9c86b851e783160120') in 0.0216835 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=77b80cab24a43ef1f4ad389b1172b5d0 DependenciesID=114bc45cb8477bfa717f1eda0281baec StaticDependenciesID=174e282cbe4bb9cd3bb60a0b87a579d7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 69
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Realistic Tree/Source/Materials/Standard/Leaves/Chestnut/Chestnut_Big_Leaves.mat
+  importAddress: Guid(e6e7cefe17ea88642be02ec6d18a0680) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Materials/Standard/Leaves/Chestnut/Chestnut_Big_Leaves.mat using Guid(e6e7cefe17ea88642be02ec6d18a0680) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5e355f0cfe3fea32118ed3cd2c72efbd') in 0.0135106 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b91e48589dad0dde82ca8035918c1d10 DependenciesID=9640ebc382354b54d727287980df98a8 StaticDependenciesID=c64d25a48812fffbb7297abfdf1a7319 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Realistic Tree/Source/Materials/HDRP/Bark/Birch.mat
+  importAddress: Guid(2d3189f7c59c58e49a0758818271ffc1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Materials/HDRP/Bark/Birch.mat using Guid(2d3189f7c59c58e49a0758818271ffc1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '67ef03c35efeabe310a46e6fb5ea09ae') in 0.0055892 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=56416fae66785d16b269637e9e2a2aad DependenciesID=4a0fe29cc0dfc2098b7362aafafe2f67 StaticDependenciesID=19b1a7998607790d6c829295c64faf68 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Realistic Tree/Source/Models/Spruce/Spruce_2.fbx
+  importAddress: Guid(3855f0123d3fbcc4a98addca39e5b1bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Models/Spruce/Spruce_2.fbx using Guid(3855f0123d3fbcc4a98addca39e5b1bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7ecb26c3125ac1ea1726185b73c6e192') in 0.0149319 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6cd504fdd9ea282777e8bd3e40fe38bb DependenciesID=1cb048e089b9758cd43e7b5c2d73ecc7 StaticDependenciesID=d2630b2a25fa826e5fc3c84322c2bf0d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Realistic Tree/Source
+  importAddress: Guid(6e6a72f702fb52f49bfcbcb123ea0f51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source using Guid(6e6a72f702fb52f49bfcbcb123ea0f51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd43e15d396527faaaedf3e222ee3540a') in 0.0025936 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5cc76f8e39c3c770d259574c2bfd91f4 DependenciesID=9239e36ce1d6e426ddbd7c483c48a3fd StaticDependenciesID=1f39f3082fe1a034ed272a05bd55600c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Realistic Tree/Prefabs/Standard/Spruce/Spruce 4.prefab
+  importAddress: Guid(13be5babdc5712542bc103a2ab32a766) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/Standard/Spruce/Spruce 4.prefab using Guid(13be5babdc5712542bc103a2ab32a766) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '17d3103be4addf4ee872e0eb4ade215b') in 0.0059679 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1096672d27516bd0b12fb5671ee5868e DependenciesID=40e0d8dee400873c0e216e85f37698c2 StaticDependenciesID=709264e681eff71419e2c38e3fefcc35 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Realistic Tree/Source/Materials/URP/Bark/Bark_Willow.mat
+  importAddress: Guid(b7a4771565ba58b4c984f7f35bc06543) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Materials/URP/Bark/Bark_Willow.mat using Guid(b7a4771565ba58b4c984f7f35bc06543) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c8cb86a5f449323f37b6516c1ff69c91') in 0.0055177 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=811162c5a2debac2a5c2601a0c593548 DependenciesID=a3b54f0dd1bd0c72bc9feb866eef1754 StaticDependenciesID=d1c1aac2836d3d8ecdaed9bc40f373a2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Chestnut/Chestnut 3.prefab
+  importAddress: Guid(48c03ef913cc61846a12cb8f6dc7ff8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/URP/Chestnut/Chestnut 3.prefab using Guid(48c03ef913cc61846a12cb8f6dc7ff8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f94efd0ce6bb2e66815e64ae75e51b50') in 0.0283106 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b79de0984b6b1fe7f50f446ad3fbf75d DependenciesID=5acc09c5e76a0f186a479e531094acea StaticDependenciesID=8ed6d904a322578a3816091cd2fd1725 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 89
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Realistic Tree/Prefabs/Standard/Spruce/Spruce 1.prefab
+  importAddress: Guid(400bf841f2409e84e91fef8bda9509bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/Standard/Spruce/Spruce 1.prefab using Guid(400bf841f2409e84e91fef8bda9509bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd228724a1d230afe0d82316924281dbc') in 0.0079382 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7d18df0741804904e18132137bf3a26e DependenciesID=aa6cff6ec0e74b607f5a7c384f28a43e StaticDependenciesID=1a72ae7526f8422db11146ca1701fa8c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Realistic Tree/Source/Models/Spruce/Spruce_Group_2.fbx
+  importAddress: Guid(d09ff55a7e074ce46912818a6561da61) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Models/Spruce/Spruce_Group_2.fbx using Guid(d09ff55a7e074ce46912818a6561da61) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8de115bce4490a05f2ba3a56fafba403') in 0.0129435 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9fcb75a21d13014583e8401b035483b9 DependenciesID=0df40fb0ea15833c03b823e425597354 StaticDependenciesID=d10af29b9df80c29acbadf263b548db9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Birch/Birch Group 2.prefab
+  importAddress: Guid(bcbf9a89f0f31f949b3b1fafe6848aba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/URP/Birch/Birch Group 2.prefab using Guid(bcbf9a89f0f31f949b3b1fafe6848aba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ff0c887b3f1b0a8771be2cb4e5a1ecd5') in 0.0210139 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fd65b3e4fbf7bf6165dfa0ff05ec9dd7 DependenciesID=8cbde821d2f902346f1d65b6fef1f1ab StaticDependenciesID=9fdef4143a872424664427cf401573e7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 69
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Realistic Tree/Source/Materials/URP/Bark/Spruce.mat
+  importAddress: Guid(f5a604e18538a7744aeab459c61bdadf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Materials/URP/Bark/Spruce.mat using Guid(f5a604e18538a7744aeab459c61bdadf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3842ba02e5396a1d5b68080232de9993') in 0.0042348 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7381aba76788c060978df0e30c9372a2 DependenciesID=d90559fde735bd1b6e844ec126e0ca22 StaticDependenciesID=f19dbb686be744074a6cfc69a1f90f4c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Realistic Tree/Prefabs/Standard/Chestnut/Leaf_1.png
+  importAddress: Guid(6553b681ac305bb449e2448b3e499ea1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/Standard/Chestnut/Leaf_1.png using Guid(6553b681ac305bb449e2448b3e499ea1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7a1c2c113abb3b304db00f750543046c') in 0.0100141 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=84cd2f057544fccc0cef82faabeddc04 DependenciesID=3b5d0a912f553a06fe074f8a720d3716 StaticDependenciesID=107aa8f4edb8cc372399a30eecfb4135 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Realistic Tree/Source/Textures/Moss
+  importAddress: Guid(83b5a89e98b4a5f4d8a7a025faff8e5b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Textures/Moss using Guid(83b5a89e98b4a5f4d8a7a025faff8e5b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6018f4634c079c2441986ce28c91e446') in 0.006714 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a454fb6901df6c3660ac1bdb3c6116e2 DependenciesID=fb10365316e8f044160fbca71ad451a7 StaticDependenciesID=6dae68535fa22685cba83186f50e4001 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Ash
+  importAddress: Guid(6bfa9772a87c6b04a9c6f89df8d047c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/URP/Ash using Guid(6bfa9772a87c6b04a9c6f89df8d047c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b28bc115c0be886f7cc67b2a25e385e2') in 0.0024843 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=481da709afbbcbf6cc39a81f51e9ffd0 DependenciesID=908886cf445700ccdd1bbdbd7cc144a9 StaticDependenciesID=a547cbfe5a3f7915d99322d68b70cf9b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Realistic Tree/Prefabs/HDRP/Spruce/Spruce 7.prefab
+  importAddress: Guid(bea7820cec2a1a744b0b353f5c0562e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/HDRP/Spruce/Spruce 7.prefab using Guid(bea7820cec2a1a744b0b353f5c0562e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8a71c3f6625421e31845fdc1d538ce03') in 0.0077228 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=afdc4565fbeef404431bd3b11ca629d2 DependenciesID=d72332a7047936031c922d0cd635d779 StaticDependenciesID=65396bfeac08187223596b2215309bbf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Realistic Tree/Source/Models/Weeping Willow/Willow_6.fbx
+  importAddress: Guid(7f774b610692ed5479787b42a33df9fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Models/Weeping Willow/Willow_6.fbx using Guid(7f774b610692ed5479787b42a33df9fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1b26713c0d1b85845098167016d9eca9') in 0.017432 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a61c888626de6ad6a07795b8079e2915 DependenciesID=dc97f839d33b42093c5ff380771f1d87 StaticDependenciesID=7b9e0e9ffb30f93c89c1f5b9508a6053 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Realistic Tree/Prefabs/Standard/Birch/Birch 8.prefab
+  importAddress: Guid(db61dc2238d3c4a478c5a8f9a18be98f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/Standard/Birch/Birch 8.prefab using Guid(db61dc2238d3c4a478c5a8f9a18be98f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6f523e206b377bdbd3d30ee47ab23489') in 0.0285901 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eb968f058b5fc4882f4122ab3f36cb81 DependenciesID=2ba9f66c461ed9f47cb527cdf85a33de StaticDependenciesID=6750205c2d3e60ad03946cfb4cfbba4e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 69
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Realistic Tree/Prefabs
+  importAddress: Guid(a7423a6760ae2b144b40df1e985da875) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs using Guid(a7423a6760ae2b144b40df1e985da875) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8db3c6d8a051514655b3ced26b2b5ba6') in 0.0033628 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=da0be0f57971f18a0227cf95311b4db7 DependenciesID=b6b99b7bbaee84d52df560453f0c0f76 StaticDependenciesID=41d722db30777ea60feee3b0bb74064b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Realistic Tree/Prefabs/Standard/Chestnut/Leaf_3.png
+  importAddress: Guid(01117fc70a3880a45897e1c6d5cf6978) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/Standard/Chestnut/Leaf_3.png using Guid(01117fc70a3880a45897e1c6d5cf6978) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '40e2f26bfd3f07fca048caf689845d97') in 0.0117138 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b0b0c4bec2754ee8090d6d5b3fa833da DependenciesID=6d3c0ab189a1de45cf6b9c3c873395e6 StaticDependenciesID=44e629592ee6d5e07fe957e9f797ea7b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Realistic Tree/Source/Textures/Spruce/Spruce_Normal.png
+  importAddress: Guid(54f05838119005d4383f8f5eaed09230) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Textures/Spruce/Spruce_Normal.png using Guid(54f05838119005d4383f8f5eaed09230) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e51a8d0aae2dac14d7faac3923e51a87') in 0.0102746 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7a451d23d1cf7dda5a60486eb436b316 DependenciesID=0fff2a2d47a57a46f94f1ab4318cd295 StaticDependenciesID=3ccd1874d18c84e174069bb00136510f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Spruce/Spruce 5.prefab
+  importAddress: Guid(a89bea7274b16dd48b641c1547ee91e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/URP/Spruce/Spruce 5.prefab using Guid(a89bea7274b16dd48b641c1547ee91e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fdff80705eaa6580d9ef7f69518e612a') in 0.007384 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=962ff29ef197d5f019637866221188b8 DependenciesID=73b921345e8d836279cf28728944c179 StaticDependenciesID=94f923bbf53fc3e5d4f609d92be227cc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Realistic Tree/Source/Materials/URP/Leaves/Weeping Willow
+  importAddress: Guid(d138de76999a00444b7e8d45afe06c24) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Materials/URP/Leaves/Weeping Willow using Guid(d138de76999a00444b7e8d45afe06c24) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '556303259d1b224f9bcba3db6152ad46') in 0.0026903 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=006576726cfa7b775fa0a18d4faf3506 DependenciesID=6e687341327af1f4715e69a7c352e28b StaticDependenciesID=bfd7362b5d9ed0d7b68e1dec18d95b56 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Realistic Tree/Source/Textures/Ash/Ash_Bark_Normal.png
+  importAddress: Guid(3903b7792982d9f4c98de04ddaf473ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Textures/Ash/Ash_Bark_Normal.png using Guid(3903b7792982d9f4c98de04ddaf473ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6332d895c158f6b2e0451fdedc25af6b') in 0.012615 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7f223ae010a2a9e00d4c65cec40cade7 DependenciesID=609dc3a1fb3f07afabaeb8d6017a5e8d StaticDependenciesID=ce5ebd136d37f9c149f963754e6af932 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Realistic Tree/Source/Materials/HDRP/Falling Leaves
+  importAddress: Guid(220677b702e975145955fb3484da043f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Materials/HDRP/Falling Leaves using Guid(220677b702e975145955fb3484da043f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c13c89d9a3d08c9f35d95eb754a5ced7') in 0.0041473 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8f9bf67e62498c154fe95d8f04cb9b72 DependenciesID=08ece590a2d7078ceced8ddbaea23d9f StaticDependenciesID=c57eca0a7f24549a38a208c33aff3c68 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Realistic Tree/Source/Models/Chestnut/Chestnut_2.fbx
+  importAddress: Guid(e3d7885ce9a810f44be9bbf1a4e1843f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Models/Chestnut/Chestnut_2.fbx using Guid(e3d7885ce9a810f44be9bbf1a4e1843f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '828a8c508fb23a1809b69c4b3c0ed375') in 0.0308668 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=603de067152a88ebe84d1de33d00b5d2 DependenciesID=da6fe42105957905498c0fe060410046 StaticDependenciesID=22ba57f87919bb19aa2220cde5f95949 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 85
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Realistic Tree/Source/Textures/Ash
+  importAddress: Guid(e6c7fb1f6de9780439e929b31192fd16) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Textures/Ash using Guid(e6c7fb1f6de9780439e929b31192fd16) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9725c2a10ec36b8bbf39c273ccf2284a') in 0.0037831 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=224f78f5a24e23a771ae537e213d9395 DependenciesID=58ef2d9d17c46fc31a390b3444cca0ed StaticDependenciesID=c67080ddf8825dc63c319bc53a9ef8fb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Realistic Tree/Source/Materials/HDRP/Leaves/Ash/Ash_Leaves_1.mat
+  importAddress: Guid(843fbfffaa7abbf4ca89efc2086ffa07) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Source/Materials/HDRP/Leaves/Ash/Ash_Leaves_1.mat using Guid(843fbfffaa7abbf4ca89efc2086ffa07) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1a0a911e0f40fd715c85930542effab9') in 0.0076125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=85a38ffdbdf620b5550ab32e377e2b50 DependenciesID=095fe89649505bfd483c24fae3d32edb StaticDependenciesID=bfc169c1f47c6fd9077e26caa5d66691 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Realistic Tree/Prefabs/HDRP/Birch/Birch 2.prefab
+  importAddress: Guid(4da729d2d8eb9f54d8c32912c8b76df0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/HDRP/Birch/Birch 2.prefab using Guid(4da729d2d8eb9f54d8c32912c8b76df0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5e89b04e531a117d71c7ab1c94a3a3df') in 0.0340739 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2c710b151674b6332b3a3d46e3c63d60 DependenciesID=9b5f844ab4cac7d3f62b98a32e785ad3 StaticDependenciesID=450277bb1ded46f39663d8e5023d54e7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 69
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Birch/Birch Group 1.prefab
+  importAddress: Guid(74f851ac0ac2e7a45bbc4b6fc6d2a1fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Realistic Tree/Prefabs/URP/Birch/Birch Group 1.prefab using Guid(74f851ac0ac2e7a45bbc4b6fc6d2a1fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '98b0700504b2d9226b30e6b866e42524') in 0.0230548 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0b05fe10e4099bccc0b47fdbf2e99fe6 DependenciesID=af1b6ba45f2c90330bf1ea90db988ca2 StaticDependenciesID=cba723ad98acfb620144d76d17e99a08 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 69
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.366 seconds
+Domain Reload Profiling: 676ms
+	BeginReloadAssembly (194ms)
+		DisableScriptedObjects (9ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (28ms)
+		LoadAssemblies (127ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (4ms)
+			BuildScriptInfoCaches (8ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (368ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (96ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (4ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 418 unused Assets / (23.6 KB). Loaded Objects now: 1039.
+Memory consumption went from 71.7 MB to 71.7 MB.
+Total: 4.058900 ms (FindLiveObjects: 0.069900 ms CreateObjectMapping: 0.018500 ms MarkObjects: 3.846400 ms  DeleteObjects: 0.122900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
