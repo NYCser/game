@@ -1,0 +1,638 @@
+=== GameTypes.cs ===
+--- /mnt/data/hollow_manor_proj/Assets/Scripts/GameTypes.cs.bak	2026-03-27 04:53:57.547125140 +0000
++++ /mnt/data/hollow_manor_proj/Assets/Scripts/GameTypes.cs	2026-03-27 04:54:07.072983618 +0000
+@@ -7,7 +7,8 @@
+         None = 0,
+         BlueFuse = 1,
+         Evidence = 2,
+-        RedKeycard = 3
++        RedKeycard = 3,
++        Noisemaker = 4
+     }
+ 
+     public enum ObjectiveStage
+
+=== GameManager.cs ===
+--- /mnt/data/hollow_manor_proj/Assets/Scripts/GameManager.cs.bak	2026-03-27 04:53:57.566127067 +0000
++++ /mnt/data/hollow_manor_proj/Assets/Scripts/GameManager.cs	2026-03-27 04:57:56.083692735 +0000
+@@ -25,6 +25,12 @@
+         public string ThreatText { get; private set; } = "ỔN ĐỊNH";
+         public float IntroTimer { get; private set; } = 8.5f;
+         public string CurrentAreaName { get; private set; } = "SẢNH NAM";
++        public int NoiseMakerCharges { get; private set; } = 1;
++        public bool HasActiveNoiseEvent => activeNoiseEventTimer > 0f;
++        public int ActiveNoiseEventId { get; private set; }
++        public Vector3 ActiveNoiseEventPosition { get; private set; }
++        public float ActiveNoiseEventRadius { get; private set; }
++        public string ActiveNoiseEventLabel { get; private set; } = string.Empty;
+ 
+         private string toastMessage = string.Empty;
+         private float toastTimer;
+@@ -33,6 +39,7 @@
+         private ObjectiveStage announcedStage = (ObjectiveStage)(-1);
+         private string lastAreaName = string.Empty;
+         private readonly HashSet<string> visitedAreas = new HashSet<string>();
++        private float activeNoiseEventTimer;
+ 
+         private void Awake()
+         {
+@@ -70,6 +77,16 @@
+                 IntroTimer = Mathf.Max(0f, IntroTimer - Time.deltaTime);
+             }
+ 
++            if (activeNoiseEventTimer > 0f)
++            {
++                activeNoiseEventTimer = Mathf.Max(0f, activeNoiseEventTimer - Time.deltaTime);
++                if (activeNoiseEventTimer <= 0f)
++                {
++                    ActiveNoiseEventRadius = 0f;
++                    ActiveNoiseEventLabel = string.Empty;
++                }
++            }
++
+             UpdateAreaTracking();
+             AnnounceStageIfNeeded();
+         }
+@@ -127,11 +144,42 @@
+                         ShowToast("Đã lấy thẻ đỏ. Có thể mở sâu vào kho lưu trữ.", 3.0f);
+                     }
+                     break;
++
++                case ItemType.Noisemaker:
++                    NoiseMakerCharges = Mathf.Clamp(NoiseMakerCharges + 1, 0, 9);
++                    ShowToast("Nhặt được mồi nhử tiếng động. Nhấn Q để ném.", 2.5f);
++                    break;
+             }
+ 
+             EvaluateStage();
+         }
+ 
++        public bool TryConsumeNoiseMaker()
++        {
++            if (NoiseMakerCharges <= 0)
++            {
++                return false;
++            }
++
++            NoiseMakerCharges--;
++            NotifyStateChanged();
++            return true;
++        }
++
++        public void EmitNoise(Vector3 position, float radius, float duration, string label = "")
++        {
++            if (IsEnded || radius <= 0f || duration <= 0f)
++            {
++                return;
++            }
++
++            ActiveNoiseEventId++;
++            ActiveNoiseEventPosition = position;
++            ActiveNoiseEventRadius = radius;
++            ActiveNoiseEventLabel = label ?? string.Empty;
++            activeNoiseEventTimer = duration;
++        }
++
+         public void RestorePower()
+         {
+             if (PowerRestored)
+@@ -281,15 +329,18 @@
+             return "Trang bị\n" +
+                    "- Cầu chì xanh: " + (HasBlueFuse ? "Có" : "Chưa") + "\n" +
+                    "- Hồ sơ: " + EvidenceCollected + "/" + EvidenceRequired + "\n" +
+-                   "- Thẻ đỏ: " + (HasRedKeycard ? "Có" : "Chưa") + "\n\n" +
++                   "- Thẻ đỏ: " + (HasRedKeycard ? "Có" : "Chưa") + "\n" +
++                   "- Mồi nhử tiếng động: " + NoiseMakerCharges + "\n\n" +
+                    "Stealth\n" +
+                    "- Vàng: bảo vệ đang nghi ngờ\n" +
+                    "- Đỏ: đang bị truy đuổi\n" +
++                   "- Máy phát/cửa/mồi nhử đều có thể kéo bảo vệ lệch hướng\n" +
+                    "- Bị áp sát ~1.8m khi truy đuổi: thua\n\n" +
+                    "Điều khiển\n" +
+                    "- Shift: Chạy\n" +
+                    "- Ctrl/C: Cúi\n" +
+                    "- F: Đèn pin\n" +
++                   "- Q: Ném mồi nhử\n" +
+                    "- E: Tương tác";
+         }
+ 
+@@ -302,7 +353,7 @@
+                 case ObjectiveStage.RestorePower:
+                     return "Điện phụ là chìa khóa của toàn bộ khu an ninh. Khi nguồn lên, tuần tra cũng sẽ dày hơn.";
+                 case ObjectiveStage.GatherEvidence:
+-                    return "Hồ sơ được cất rải rác giữa thư viện, phòng giám sát và văn phòng trưởng ca.\nĐừng chạy quá lâu nếu không muốn bị nghe thấy.";
++                    return "Hồ sơ được cất rải rác giữa thư viện, phòng giám sát và văn phòng trưởng ca.\nQ để ném mồi nhử, kéo tuần tra đi lệch khỏi tuyến của bạn.";
+                 case ObjectiveStage.FindRedKeycard:
+                     return "Thẻ đỏ mở sâu vào kho lưu trữ. Bảo vệ cấp cao thường tuần tra quanh khu bắc.";
+                 case ObjectiveStage.UnlockArchive:
+
+=== PlayerMotor.cs ===
+--- /mnt/data/hollow_manor_proj/Assets/Scripts/PlayerMotor.cs.bak	2026-03-27 04:53:57.581537391 +0000
++++ /mnt/data/hollow_manor_proj/Assets/Scripts/PlayerMotor.cs	2026-03-27 04:56:09.998163174 +0000
+@@ -18,6 +18,12 @@
+         public float minPitch = -75f;
+         public float maxPitch = 80f;
+ 
++        [Header("Distraction")]
++        public float noisemakerThrowDistance = 13f;
++        public float noisemakerRadius = 10f;
++        public float noisemakerEventDuration = 0.35f;
++        public float noisemakerCooldown = 0.45f;
++
+         private CharacterController controller;
+         private Transform cameraPivot;
+         private Camera viewCamera;
+@@ -30,6 +36,7 @@
+         private bool isHidden;
+         private bool isCrouching;
+         private bool flashlightEnabled = true;
++        private float noisemakerCooldownTimer;
+         private HideSpotInteractable currentHideSpot;
+ 
+         public float CurrentNoiseRadius { get; private set; }
+@@ -104,6 +111,16 @@
+                 ToggleFlashlight();
+             }
+ 
++            if (noisemakerCooldownTimer > 0f)
++            {
++                noisemakerCooldownTimer = Mathf.Max(0f, noisemakerCooldownTimer - Time.deltaTime);
++            }
++
++            if (!inputBlocked && !isHidden && Input.GetKeyDown(KeyCode.Q))
++            {
++                TryThrowNoisemaker();
++            }
++
+             if (isHidden)
+             {
+                 CurrentNoiseRadius = 0f;
+@@ -252,6 +269,60 @@
+             }
+         }
+ 
++        private void TryThrowNoisemaker()
++        {
++            if (noisemakerCooldownTimer > 0f || viewCamera == null || GameManager.Instance == null || GameManager.Instance.IsEnded)
++            {
++                return;
++            }
++
++            if (!GameManager.Instance.TryConsumeNoiseMaker())
++            {
++                GameManager.Instance.ShowToast("Bạn đã hết mồi nhử tiếng động.", 1.6f);
++                noisemakerCooldownTimer = 0.15f;
++                return;
++            }
++
++            Ray ray = viewCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
++            Vector3 target = viewCamera.transform.position + viewCamera.transform.forward * noisemakerThrowDistance;
++            if (Physics.Raycast(ray, out RaycastHit hit, noisemakerThrowDistance, ~0, QueryTriggerInteraction.Ignore))
++            {
++                target = hit.point;
++            }
++
++            target.y = Mathf.Max(0.15f, target.y);
++            SpawnNoisemakerMarker(target);
++            GameManager.Instance.EmitNoise(target, noisemakerRadius, noisemakerEventDuration, "Mồi nhử");
++            GameManager.Instance.ShowToast("Mồi nhử đã rơi xuống và phát tiếng động.", 1.35f);
++            noisemakerCooldownTimer = noisemakerCooldown;
++        }
++
++        private void SpawnNoisemakerMarker(Vector3 position)
++        {
++            GameObject marker = GameObject.CreatePrimitive(PrimitiveType.Sphere);
++            marker.name = "NoisemakerMarker";
++            marker.transform.position = position;
++            marker.transform.localScale = Vector3.one * Mathf.Clamp(noisemakerRadius * 0.08f, 0.55f, 1.05f);
++
++            Collider markerCollider = marker.GetComponent<Collider>();
++            if (markerCollider != null)
++            {
++                Destroy(markerCollider);
++            }
++
++            Renderer markerRenderer = marker.GetComponent<Renderer>();
++            if (markerRenderer != null)
++            {
++                Material material = new Material(Shader.Find("Standard"));
++                material.color = new Color(1.0f, 0.72f, 0.22f);
++                material.EnableKeyword("_EMISSION");
++                material.SetColor("_EmissionColor", new Color(1.0f, 0.45f, 0.10f) * 0.9f);
++                markerRenderer.material = material;
++            }
++
++            Destroy(marker, 0.40f);
++        }
++
+         private void ToggleFlashlight()
+         {
+             flashlightEnabled = !flashlightEnabled;
+
+=== PatrolEnemy.cs ===
+--- /mnt/data/hollow_manor_proj/Assets/Scripts/PatrolEnemy.cs.bak	2026-03-27 04:53:57.593782414 +0000
++++ /mnt/data/hollow_manor_proj/Assets/Scripts/PatrolEnemy.cs	2026-03-27 04:57:12.021022909 +0000
+@@ -33,6 +33,8 @@
+         private Vector3 lastSeenPosition;
+         private float stateTimer;
+         private float awareness;
++        private bool hasLastSeenPosition;
++        private int lastReactedNoiseEventId = -1;
+ 
+         private void Awake()
+         {
+@@ -62,7 +64,6 @@
+ 
+             PlayerMotor player = GameManager.Instance.Player;
+             float distanceToPlayer = Vector3.Distance(Flatten(transform.position), Flatten(player.transform.position));
+-
+             bool seesPlayer = CanSeePlayer(player, out float sightFactor);
+             bool closeContact = !player.IsHidden && distanceToPlayer <= proximityRevealDistance;
+ 
+@@ -71,64 +72,53 @@
+                 awareness = Mathf.MoveTowards(awareness, 0f, Time.deltaTime * 1.8f);
+                 if (state == EnemyState.Chase)
+                 {
+-                    state = EnemyState.Investigate;
+-                    investigatePosition = lastSeenPosition;
+-                    stateTimer = investigatePause;
+-                    RefreshColor();
++                    if (hasLastSeenPosition)
++                    {
++                        BeginInvestigate(lastSeenPosition, investigatePause + 0.85f, 0.32f);
++                    }
++                    else
++                    {
++                        SetState(EnemyState.Patrol);
++                    }
+                 }
+             }
+             else if (seesPlayer)
+             {
+                 awareness = Mathf.Clamp01(awareness + Time.deltaTime * Mathf.Lerp(0.65f, 1.45f, sightFactor));
+                 lastSeenPosition = player.transform.position;
++                hasLastSeenPosition = true;
++
+                 if (awareness >= 0.40f && state == EnemyState.Patrol)
+                 {
+-                    state = EnemyState.Investigate;
+-                    investigatePosition = player.transform.position;
+-                    stateTimer = investigatePause;
+-                    RefreshColor();
++                    BeginInvestigate(lastSeenPosition, investigatePause, 0.40f);
+                 }
++
+                 if (awareness >= 0.85f || distanceToPlayer <= proximityRevealDistance)
+                 {
+-                    state = EnemyState.Chase;
+-                    stateTimer = chaseMemory;
+-                    RefreshColor();
++                    BeginChase(lastSeenPosition);
+                 }
+             }
+             else if (closeContact)
+             {
+                 awareness = Mathf.Clamp01(awareness + Time.deltaTime * 1.8f);
+-                state = EnemyState.Chase;
+-                lastSeenPosition = player.transform.position;
+-                stateTimer = chaseMemory;
+-                RefreshColor();
++                BeginChase(player.transform.position);
+             }
+             else
+             {
+                 awareness = Mathf.MoveTowards(awareness, 0f, Time.deltaTime * 0.35f);
++
+                 if (state == EnemyState.Chase)
+                 {
+                     stateTimer -= Time.deltaTime;
+                     if (stateTimer <= 0f)
+                     {
+-                        state = EnemyState.Investigate;
+-                        investigatePosition = lastSeenPosition;
+-                        stateTimer = investigatePause;
+-                        RefreshColor();
+-                    }
+-                }
+-                else
+-                {
+-                    float hearingRadius = player.CurrentNoiseRadius;
+-                    if (hearingRadius > 0f && distanceToPlayer <= hearingRadius)
+-                    {
+-                        awareness = Mathf.Clamp01(awareness + Time.deltaTime * 0.75f);
+-                        state = EnemyState.Investigate;
+-                        investigatePosition = player.transform.position;
+-                        stateTimer = investigatePause + 0.5f;
+-                        RefreshColor();
++                        Vector3 fallback = hasLastSeenPosition ? lastSeenPosition : transform.position;
++                        BeginInvestigate(fallback, investigatePause + 1.0f, 0.25f);
+                     }
+                 }
++
++                TryHearActiveNoiseEvent();
++                TryHearPlayerNoise(player, distanceToPlayer);
+             }
+ 
+             switch (state)
+@@ -140,7 +130,7 @@
+                     UpdateInvestigate();
+                     break;
+                 case EnemyState.Chase:
+-                    UpdateChase(player, distanceToPlayer);
++                    UpdateChase(player, distanceToPlayer, seesPlayer);
+                     break;
+             }
+ 
+@@ -166,6 +156,33 @@
+             waypointIndex = 0;
+         }
+ 
++        private void SetState(EnemyState newState)
++        {
++            if (state == newState)
++            {
++                return;
++            }
++
++            state = newState;
++            RefreshColor();
++        }
++
++        private void BeginInvestigate(Vector3 position, float lingerTime, float minimumAwareness)
++        {
++            investigatePosition = position;
++            stateTimer = lingerTime;
++            awareness = Mathf.Max(awareness, minimumAwareness);
++            SetState(EnemyState.Investigate);
++        }
++
++        private void BeginChase(Vector3 position)
++        {
++            lastSeenPosition = position;
++            hasLastSeenPosition = true;
++            stateTimer = chaseMemory;
++            SetState(EnemyState.Chase);
++        }
++
+         private void UpdatePatrol()
+         {
+             if (waypoints == null || waypoints.Length == 0)
+@@ -183,26 +200,40 @@
+ 
+         private void UpdateInvestigate()
+         {
+-            MoveTowards(investigatePosition, investigateSpeed);
+-            if (Vector3.Distance(Flatten(transform.position), Flatten(investigatePosition)) <= 0.45f)
++            float distanceToPoint = Vector3.Distance(Flatten(transform.position), Flatten(investigatePosition));
++            if (distanceToPoint > 0.45f)
+             {
+-                stateTimer -= Time.deltaTime;
+-                if (stateTimer <= 0f)
+-                {
+-                    state = EnemyState.Patrol;
+-                    RefreshColor();
+-                }
++                MoveTowards(investigatePosition, investigateSpeed);
++                return;
++            }
++
++            stateTimer -= Time.deltaTime;
++            transform.Rotate(Vector3.up, 90f * Time.deltaTime, Space.World);
++            if (stateTimer <= 0f)
++            {
++                SetState(EnemyState.Patrol);
+             }
+         }
+ 
+-        private void UpdateChase(PlayerMotor player, float distanceToPlayer)
++        private void UpdateChase(PlayerMotor player, float distanceToPlayer, bool seesPlayer)
+         {
+-            Vector3 target = player.transform.position;
+-            lastSeenPosition = target;
+-            stateTimer = chaseMemory;
++            Vector3 target = hasLastSeenPosition ? lastSeenPosition : player.transform.position;
++            if (seesPlayer && !player.IsHidden)
++            {
++                target = player.transform.position;
++                lastSeenPosition = target;
++                hasLastSeenPosition = true;
++                stateTimer = chaseMemory;
++            }
++
+             MoveTowards(target, chaseSpeed);
+ 
+-            if (distanceToPlayer <= catchDistance)
++            if (!seesPlayer && Vector3.Distance(Flatten(transform.position), Flatten(target)) <= 0.55f)
++            {
++                stateTimer -= Time.deltaTime * 1.15f;
++            }
++
++            if (distanceToPlayer <= catchDistance && CanCatchPlayer(player))
+             {
+                 GameManager.Instance.PlayerCaught();
+             }
+@@ -226,6 +257,63 @@
+             controller.Move(movement * Time.deltaTime);
+         }
+ 
++        private bool TryHearPlayerNoise(PlayerMotor player, float distanceToPlayer)
++        {
++            if (player == null || player.IsHidden)
++            {
++                return false;
++            }
++
++            float hearingRadius = player.CurrentNoiseRadius;
++            if (hearingRadius <= 0f || distanceToPlayer > hearingRadius)
++            {
++                return false;
++            }
++
++            lastSeenPosition = player.transform.position;
++            hasLastSeenPosition = true;
++
++            if (state == EnemyState.Chase)
++            {
++                stateTimer = Mathf.Max(stateTimer, chaseMemory * 0.75f);
++                return true;
++            }
++
++            awareness = Mathf.Clamp01(awareness + 0.22f);
++            BeginInvestigate(player.transform.position, investigatePause + 0.55f, 0.38f);
++            return true;
++        }
++
++        private bool TryHearActiveNoiseEvent()
++        {
++            if (GameManager.Instance == null || !GameManager.Instance.HasActiveNoiseEvent)
++            {
++                return false;
++            }
++
++            if (GameManager.Instance.ActiveNoiseEventId == lastReactedNoiseEventId)
++            {
++                return false;
++            }
++
++            float distanceToNoise = Vector3.Distance(Flatten(transform.position), Flatten(GameManager.Instance.ActiveNoiseEventPosition));
++            if (distanceToNoise > GameManager.Instance.ActiveNoiseEventRadius)
++            {
++                return false;
++            }
++
++            lastReactedNoiseEventId = GameManager.Instance.ActiveNoiseEventId;
++            if (state == EnemyState.Chase)
++            {
++                return false;
++            }
++
++            float signal = 1f - Mathf.Clamp01(distanceToNoise / Mathf.Max(0.01f, GameManager.Instance.ActiveNoiseEventRadius));
++            awareness = Mathf.Clamp01(awareness + 0.14f + signal * 0.20f);
++            BeginInvestigate(GameManager.Instance.ActiveNoiseEventPosition, investigatePause + Mathf.Lerp(0.8f, 1.6f, signal), 0.30f);
++            return true;
++        }
++
+         private bool CanSeePlayer(PlayerMotor player, out float sightFactor)
+         {
+             sightFactor = 0f;
+@@ -257,7 +345,7 @@
+                 bool visible = hit.collider.GetComponentInParent<PlayerMotor>() != null;
+                 if (visible)
+                 {
+-                    float angleFactor = 1f - Mathf.InverseLerp(viewAngle * 0.5f, 0f, angle);
++                    float angleFactor = 1f - Mathf.InverseLerp(0f, viewAngle * 0.5f, angle);
+                     float distanceFactor = 1f - Mathf.Clamp01(distance / effectiveDistance);
+                     sightFactor = Mathf.Clamp01(0.35f + angleFactor * 0.35f + distanceFactor * 0.30f);
+                 }
+@@ -265,6 +353,30 @@
+             }
+ 
+             return false;
++        }
++
++        private bool CanCatchPlayer(PlayerMotor player)
++        {
++            if (player == null || player.IsHidden)
++            {
++                return false;
++            }
++
++            Vector3 origin = transform.position + Vector3.up * 1.15f;
++            Vector3 target = player.EyeTransform.position;
++            Vector3 toPlayer = target - origin;
++            float distance = toPlayer.magnitude;
++            if (distance <= 0.01f)
++            {
++                return true;
++            }
++
++            if (Physics.Raycast(origin, toPlayer.normalized, out RaycastHit hit, distance, ~0, QueryTriggerInteraction.Ignore))
++            {
++                return hit.collider.GetComponentInParent<PlayerMotor>() != null;
++            }
++
++            return false;
+         }
+ 
+         private void ReportThreat(PlayerMotor player, float distance)
+
+=== LevelFactory.cs ===
+--- /mnt/data/hollow_manor_proj/Assets/Scripts/LevelFactory.cs.bak	2026-03-27 04:53:57.605393414 +0000
++++ /mnt/data/hollow_manor_proj/Assets/Scripts/LevelFactory.cs	2026-03-27 04:57:44.778522580 +0000
+@@ -38,7 +38,7 @@
+             BuildEnemies(enemyRoot, materials);
+             BuildLighting(lightingRoot, materials);
+ 
+-            gameManager.ShowToast("Mai đã vào dinh thự. Đi thấp, cắt góc và dùng tủ để phá truy đuổi.", 4f);
++            gameManager.ShowToast("Mai đã vào dinh thự. Q để ném mồi nhử, đi thấp và dùng tủ để phá truy đuổi.", 4.25f);
+             return root;
+         }
+ 
+@@ -163,12 +163,21 @@
+                 new Vector3(18.2f, 0.85f, 14.2f),
+                 new Vector3(-18.0f, 0.85f, 14.2f)
+             };
++            List<Vector3> noisemakerPoints = new List<Vector3>
++            {
++                new Vector3(-12.4f, 0.85f, 4.8f),
++                new Vector3(17.8f, 0.85f, 4.6f),
++                new Vector3(-18.2f, 0.85f, 14.4f),
++                new Vector3(18.1f, 0.85f, -13.8f)
++            };
+ 
+             CreatePickup(parent, materials, ItemType.BlueFuse, "cầu chì xanh", TakeRandom(fusePoints), PickupVisualType.Fuse);
+             CreatePickup(parent, materials, ItemType.Evidence, "hồ sơ thư viện", TakeRandom(evidencePoints), PickupVisualType.Evidence);
+             CreatePickup(parent, materials, ItemType.Evidence, "hồ sơ lưu động", TakeRandom(evidencePoints), PickupVisualType.Evidence);
+             CreatePickup(parent, materials, ItemType.Evidence, "hồ sơ bảo vệ", TakeRandom(evidencePoints), PickupVisualType.Evidence);
+             CreatePickup(parent, materials, ItemType.RedKeycard, "thẻ đỏ", TakeRandom(keycardPoints), PickupVisualType.Keycard);
++            CreatePickup(parent, materials, ItemType.Noisemaker, "mồi nhử tiếng động", TakeRandom(noisemakerPoints), PickupVisualType.Noisemaker);
++            CreatePickup(parent, materials, ItemType.Noisemaker, "mồi nhử tiếng động", TakeRandom(noisemakerPoints), PickupVisualType.Noisemaker);
+ 
+             CreateFuseBox(parent, materials, new Vector3(18f, 1.15f, -5.8f));
+             CreateSecurityDoor(parent, materials, new Vector3(0f, 1.5f, 8f));
+@@ -382,6 +391,9 @@
+                 case PickupVisualType.Keycard:
+                     visual = CreatePrimitive(PrimitiveType.Cube, root.transform, "Keycard", Vector3.zero, new Vector3(0.45f, 0.08f, 0.28f), materials.Objective);
+                     break;
++                case PickupVisualType.Noisemaker:
++                    visual = CreatePrimitive(PrimitiveType.Sphere, root.transform, "Noisemaker", Vector3.zero, new Vector3(0.24f, 0.24f, 0.24f), materials.Danger);
++                    break;
+                 default:
+                     visual = CreatePrimitive(PrimitiveType.Cube, root.transform, "Evidence", Vector3.zero, new Vector3(0.42f, 0.09f, 0.32f), materials.Evidence);
+                     break;
+@@ -554,7 +566,8 @@
+         {
+             Evidence,
+             Fuse,
+-            Keycard
++            Keycard,
++            Noisemaker
+         }
+ 
+         private sealed class MaterialSet
+
+=== FuseBoxInteractable.cs ===
+--- /mnt/data/hollow_manor_proj/Assets/Scripts/FuseBoxInteractable.cs.bak	2026-03-27 04:53:57.618799080 +0000
++++ /mnt/data/hollow_manor_proj/Assets/Scripts/FuseBoxInteractable.cs	2026-03-27 04:57:26.538656199 +0000
+@@ -55,7 +55,12 @@
+                 return;
+             }
+ 
++            bool wasPowered = GameManager.Instance.PowerRestored;
+             GameManager.Instance.RestorePower();
++            if (!wasPowered && GameManager.Instance.PowerRestored)
++            {
++                GameManager.Instance.EmitNoise(transform.position, 10.5f, 0.55f, "Máy phát");
++            }
+             RefreshVisual();
+         }
+ 
+
+=== SlidingDoorInteractable.cs ===
+--- /mnt/data/hollow_manor_proj/Assets/Scripts/SlidingDoorInteractable.cs.bak	2026-03-27 04:53:57.630159958 +0000
++++ /mnt/data/hollow_manor_proj/Assets/Scripts/SlidingDoorInteractable.cs	2026-03-27 04:57:26.539202467 +0000
+@@ -57,6 +57,11 @@
+             isOpen = !isOpen;
+             targetLocalPosition = isOpen ? closedLocalPosition + openLocalOffset : closedLocalPosition;
+ 
++            if (GameManager.Instance != null)
++            {
++                GameManager.Instance.EmitNoise(transform.position, isOpen ? 6.5f : 4.5f, 0.30f, "Cửa an ninh");
++            }
++
+             if (unlockArchiveOnOpen && isOpen)
+             {
+                 permanentlyUnlocked = true;
+
+=== ExitInteractable.cs ===
+--- /mnt/data/hollow_manor_proj/Assets/Scripts/ExitInteractable.cs.bak	2026-03-27 04:53:57.642741863 +0000
++++ /mnt/data/hollow_manor_proj/Assets/Scripts/ExitInteractable.cs	2026-03-27 04:57:26.539682729 +0000
+@@ -29,6 +29,7 @@
+                 return;
+             }
+ 
++            GameManager.Instance.EmitNoise(transform.position, 14f, 0.90f, "Thang nâng");
+             GameManager.Instance.PlayerEscaped();
+         }
+     }
+
